@@ -52,9 +52,11 @@ ul {
 }
 
 .padded-container {
-  width: 500px;
+  width: 50%;
   margin: 0 auto;
   padding: 30px;
+  display: grid;
+  place-items: center;
 }
 .list-inline > li {
   display: inline-block;
@@ -114,7 +116,7 @@ a {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 540px) {
   .container {
     width: 300px;
   }
