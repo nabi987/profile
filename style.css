@@ -50,6 +50,10 @@ ul {
   padding: 8px;
 }
 
+.container a {
+  color: #e60e05;
+}
+
 .padded-container {
   width: 50%;
   margin: 0 auto;
